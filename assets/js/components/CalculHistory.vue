@@ -26,7 +26,9 @@
 <script>
     export default {
         name: "CalculHistory",
+
         props: ['history'],
+        
         methods: {
             deleteFile() {
                 this.$http
