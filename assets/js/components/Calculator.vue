@@ -47,6 +47,7 @@
 <script>
     export default {
         name: "Calculator",
+
         data() {
             return {
                 logList: "",
@@ -55,6 +56,7 @@
                 operatorClicked: true
             };
         },
+        
         methods: {
             append(number) {
                 if (this.operatorClicked) {
