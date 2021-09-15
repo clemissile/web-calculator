@@ -11,18 +11,22 @@
 
     export default {
         name: "Home",
+
         data() {
             return {
                 history: []
             }
         },
+
         components: {
             Calculator,
             CalculHistory
         },
+
         created() {
             this.toHistory();
         },
+        
         methods: {
             toHistory() {
                 this.$http
