@@ -3,7 +3,7 @@
 
 Ce projet est une calculatrice qui permet d'effectuer les quatre opérations de base : l'addition, la soustraction, la multiplication et la division, tout en respectant la priorité des opérations.
 
-Cette application fonctionne avec les frameworks Symfony 4 pour le backend et VueJs pour le frontend. Le style très simple utilise SCSS, sans framework particulier.
+Cette application fonctionne avec les frameworks Symfony 4 pour le back-end et VueJs pour le front-end. Le style très simple utilise SCSS, sans framework particulier.
 
 Le backend Symfony implémente une API REST autorisant les trois requêtes suivantes :
 * GET       /api/history : récupère le contenu du fichier texte
